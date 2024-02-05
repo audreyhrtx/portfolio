@@ -1,6 +1,6 @@
 function renderProjet(img, title, content, download, popup) {
   let tmp = ` <div class="container">
-                <img src=".${img}" alt="projet">
+                <img src="${img}" alt="projet">
                 <div class="overlay">
                     <h2>${title}</h2>
                     <p class="text"> ${content} </p>`;
@@ -21,6 +21,22 @@ function renderProjet(img, title, content, download, popup) {
 
   document.querySelector(".allP").innerHTML += tmp;
 }
+
+renderProjet(
+  "./img/bookit.jpg",
+  "Bookit S5",
+  `l’objectif de ce projet consiste à réaliser un site internet de gestion de rendez-vous multi-utilisateurs.
+  Le site permet d’une part de montrer aux utilisateurs les créneaux libres, d’autre part de permettre
+  aux utilisateurs de saisir et gérer leurs rendez-vous, et évidemment de n’autoriser des rendez-vous que
+  s’ils respectent les contraintes souhaitées pour ce site.`,
+  null,
+  {
+    contentT:
+      "- Maitriser Springboot ( Security et MVC ) </br> - Interagir avec une API Java </br> - Maitriser JavaScript ",
+    contentQ:
+      "- travail en équipe (trello, git) </br> - organisation </br> - autonomie ",
+  }
+);
 
 renderProjet(
   "./img/olivier.jpg",
