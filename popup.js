@@ -55,10 +55,7 @@ renderProjet(
   "./img/agario.png",
   "Agar.io S4",
   `Pour ce dernier projet de S4, nous avons dû par binôme, re créer le jeu agar.io en TypeScript, cela a été l'occasion de découvrir toutes les possibilités du langage et de voir la différence entre JavaScript et java que nous avons appris depuis près de 2 ans`,
-  {
-    href: "https://github.com/audreyhrtx/classification.git",
-    name: "null",
-  },
+  null,
   {
     contentT:
       "- Maitriser Javascript et Typescript </br> - Créer et gérer un serveur Node.js </br> - Faire des test avec Jest",
@@ -71,7 +68,7 @@ renderProjet(
   "./img/pizzeria.png",
   "API REST S4",
   `Le but de ce projet était de réaliser l'API REST d'une pizzeria avec les méthodes du CRUD nécessaire au bon fonctionnement de la pizzeria ainsi qu'une authentification de type Bearer pour les méthodes autres que GET.`,
-  { href: "https://github.com/audreyhrtx/classification.git", name: "null" },
+  null,
   {
     contentT:
       "- Maitriser Java </br> - Créer et interagir avec une base de données (PostgreSQL) - Maitriser les jetons d'authentification </br> - ",
@@ -83,7 +80,7 @@ renderProjet(
   "./img/radiateur.jpg",
   "Methode Agile S3",
   `Au cours de ce projet de 4 jours, j'ai découvert et de mis en pratique la méthode agile. Notre mission consistait à développer un jeu sans interface graphique, en travaillant par groupe de 7 personnes avec des compétences variées et sans nous connaître auparavant. Nous avons ainsi créé Tovicon, un jeu inspiré de Pokémon.`,
-  { href: "https://github.com/audreyhrtx/tovicon.git", name: "null" },
+  null,
   {
     contentT:
       "- Maitriser Java </br> - Maitriser le fonctionnement de travail agile ",
